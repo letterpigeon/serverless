@@ -27,7 +27,7 @@ def handler(event, context):
                     ExtraArgs={'ContentType': mimetypes.guess_type(name)[0]})
                 portfolio_bucket.Object(name).Acl().put(ACL='public-read')
 
-        topic.publish(Subject="Portfolio Deployed", Message="Portfolio Deployed Successfully")
+        topic.publish(Subject="Portfolio Deployed", Message="Portfolio Deployed Successfully.  Triggered by S3")
     except:
         topic.publish(Subject="Portfolio Deploy Failed", Message="Portfolio deployment failed")
         raise
