@@ -11,4 +11,5 @@ Font Awesome
 Google Fonts
 babel
 React
-Chai (assertion library)
+Chai (assertion library for node/browser)
+Mocho (a testing framework)
