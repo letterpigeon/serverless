@@ -9,3 +9,6 @@ HTML
 CSS
 Font Awesome
 Google Fonts
+babel
+React
+Chai (assertion library)
