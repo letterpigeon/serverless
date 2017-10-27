@@ -13,3 +13,5 @@ babel
 React
 Chai (assertion library for node/browser)
 Mocho (a testing framework)
+Jest (javascript Test framework created by Facebook)
+Enzyme (Utility that works with Jest, created by Airbnb)
